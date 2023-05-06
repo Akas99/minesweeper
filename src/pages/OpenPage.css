@@ -1,0 +1,35 @@
+.back{
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    background-image: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+}
+.mix{
+    mix-blend-mode: overlay;
+    font-size: 40px;
+}
+.mix2{
+    mix-blend-mode: overlay;
+    color: rgba(65, 65, 65, 0.5);
+}
+.mix3{
+    mix-blend-mode: overlay;
+    color: black;
+    cursor: pointer;
+    transition: .6s ease-in-out;
+}
+.mix3:hover{
+    mix-blend-mode: color-burn;
+    font-size: 30px;
+    transition: .6s ease-in-out;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
