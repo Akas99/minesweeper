@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found</title>
+</head>
+<body>
+  <script>
+    const url = new URL(window.location.href);
+    const redirectUrl = url.pathname === '/repository-name'
+      ? url.origin + '/minesweeper/'
+      : url.origin + '/minesweeper' + url.pathname;
+
+    window.location.replace(redirectUrl);
+  </script>
+</body>
+</html>
