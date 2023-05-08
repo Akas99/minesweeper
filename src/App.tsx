@@ -1,5 +1,5 @@
 import MainPage from "./pages/MainPage";
-import {BrowserRouter,Route,Routes} from "react-router-dom"
+import {HashRouter as BrowserRouter,Route,Routes} from "react-router-dom"
 import OpenPage from "./pages/OpenPage";
 
 
