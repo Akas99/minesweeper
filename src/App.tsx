@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/minesweeper" element={<OpenPage />} />
+      <Route path="/" element={<OpenPage />} />
       <Route path="/main" element={<MainPage />} />
     </Routes>
     </BrowserRouter>
