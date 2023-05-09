@@ -818,11 +818,12 @@ const DashboardEnd: FC<DashboardEndProps> = ({ last}) => {
     }
   };
   const cellClassName1 =
-    "bg-red-200 rounded-lg text-xs m-[1.5px] w-4 h-4 flex justify-center items-center sm:h-8 sm:w-8 sm:text-sm md:w-9 md:h-9 md:text-base lg:w-10 lg:h-10 lg:text-lg 2xl:w-11 2xl:h-11 2xl:text-2xl";
+    "bg-red-300 rounded-lg text-xs m-[1.5px] w-4 h-4 flex justify-center items-center sm:h-8 sm:w-8 sm:text-sm md:w-9 md:h-9 md:text-base lg:w-10 lg:h-10 lg:text-lg 2xl:w-11 2xl:h-11 2xl:text-2xl";
   const cellClassName2 =
-    "bg-red-200 rounded-lg text-xs m-[1.5px] w-6 h-6 flex justify-center items-center sm:h-9 sm:w-9 sm:text-sm md:w-10 md:h-10 md:text-base lg:w-11 lg:h-11 lg:text-lg 2xl:w-12 2xl:h-12 2xl:text-2xl";
+    "bg-red-300 rounded-lg text-xs m-[1.5px] w-6 h-6 flex justify-center items-center sm:h-9 sm:w-9 sm:text-sm md:w-10 md:h-10 md:text-base lg:w-11 lg:h-11 lg:text-lg 2xl:w-12 2xl:h-12 2xl:text-2xl";
   const cellClassName3 =
-    "bg-red-200 rounded-lg text-xs m-[1.5px] w-10 h-10 flex justify-center items-center sm:w-12 sm:h-12 sm:text-sm md:w-14 md:h-14 md:text-base lg:w-16 lg:h-16 lg:text-lg 2xl:w-20 2xl:h-20 2xl:text-2xl";
+    "bg-red-300 rounded-lg text-xs m-[1.5px] w-10 h-10 flex justify-center items-center sm:w-12 sm:h-12 sm:text-sm md:w-14 md:h-14 md:text-base lg:w-16 lg:h-16 lg:text-lg 2xl:w-20 2xl:h-20 2xl:text-2xl";
+
   return (
     <div className="flex flex-col">
       {newArray.map((el, index) => {
