@@ -2,7 +2,7 @@
   "name": "minesweeper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akas99.github.io/",
+  "homepage": "https://akas99.github.io/minesweeper",
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@reduxjs/toolkit": "^1.9.3",
