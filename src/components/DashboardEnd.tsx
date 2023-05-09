@@ -4,7 +4,6 @@ import bombPic from "../assets/icons/bomb.png";
 import flag from "../assets/icons/flag.png";
 import { getLose, getWin } from "../store/endgameSlice";
 import { pauseTimer, startTimer } from "../store/timerSlice";
-import "./DashboardEnd.css"
 interface DashboardEndProps {
   last: number[][]
 }

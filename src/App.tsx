@@ -3,7 +3,6 @@ import {BrowserRouter,Route,Routes} from "react-router-dom"
 import OpenPage from "./pages/OpenPage";
 
 
-
 const App = () => {
  
   return (
