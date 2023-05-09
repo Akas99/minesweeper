@@ -7,10 +7,10 @@ import OpenPage from "./pages/OpenPage";
 const App = () => {
  
   return (
-    <BrowserRouter basename="/minesweeper">
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<OpenPage />} />
-      <Route path="/minesweeper/main" element={<MainPage />} />
+      <Route path="/main" element={<MainPage />} />
     </Routes>
     </BrowserRouter>
   );
